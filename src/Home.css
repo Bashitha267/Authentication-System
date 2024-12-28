@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.home{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+   
+}
+.check{
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+}

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  height: 100%; /* Ensure the body takes the full height of the viewport */
+  margin: 0; /* Remove default margin */
+}
+
+.login-form {
+  width: 350px;
+  height: 390px;
+  padding: 35px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: black;
+}
+.message {
+  font-size: 12px;
+  margin-top: 15px;
+  text-align: center;
+}
+.form-control {
+  background-color: white; /* or any color you prefer */
+}
+.reset-btn {
+  margin-left: 5px;
+  /* padding: 15px; */
+}
+h6 {
+  margin-top: 10px;
+  text-align: left;
+}
+body {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  width: 100%;
+}
